@@ -1,0 +1,52 @@
+/* The code from lines 2-4 puts the title of the website in the center */
+.title{ 
+    text-align:center;
+}
+h1 {
+  text-shadow: 2px 2px white;
+    color: #660381;
+}
+/* The code from lines 6-10 adds the black background-color and white text color for each section heading. If you want to change the color of the section headers, change this code!*/
+div {
+    color:#660381;
+    text-align: center;
+    background-color: #FFC2C2 ;
+}
+img{
+    width:260px;
+}
+img {
+  border-radius: 50%;
+}
+body{
+background-color:#FFC2C2
+    ;
+}
+
+.desc{
+    font-size:25px;
+    padding: 25px;
+    margin: 25px;
+    animation-name: example;
+    animation-duration: 25s;
+}
+@keyframes example {
+    from {background-color: white;}
+    to {background-color: pink;}
+}
+h1:hover {
+    background-color: white;
+    border-radius: 10px;
+}
+p{
+    font-size:25px;
+}
+.section2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    padding: 10px;
+    margin: 15px;
+}
